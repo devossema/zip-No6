@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    height: 380px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 30% 34% 20% 15%;
+}
+.container .row1{
+    width: 50px;
+    height: 50px;
+    background-color: #394653;
+    margin: 25px 0 0 25px;
+    border-radius: 50px;
+}
+.container .row1 img{
+    margin: 15px 0px 0 16px;
+    width: 18px;
+}
+.container .row2{
+    padding-left: 30px;
+}
+.container .row2 h1{
+    color: white;
+    margin-bottom: 5px;
+}
+.container .row2 p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    padding-right: 20px;
+}
+.container .row3{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.container .row3 .object1{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #394653;
+}
+.container .row3 .object1:hover{
+    background-color: white;
+}
+.container .row3 .object1:hover p{
+    color: hsl(216, 12%, 8%);
+}
+.container .row3 .object1 p{
+    margin-top: 16px;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    font-weight:700;
+}
+.container .row4 button{
+    width: 340px;
+    height: 40px;
+    margin-left: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+}
+.container .row4 button:hover{
+    background-color: white;
+}
+.container .row4 button a{
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    font-family: "Overpass", sans-serif;
+    text-decoration: none;
+}
